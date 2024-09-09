@@ -1,0 +1,129 @@
+    2  git --version
+    3  mkdir simple-git-demo
+    4  cd simple-git-demo
+    5  git init
+    6  git branch
+    7  cat>demo.txt
+    8  cat demo.txt
+    9  git status
+   10  git add .
+   11  git status
+   12  git commit -m "commit 1 at master branch"
+   13  clear
+   14  git branch
+   15  git status
+   16  nano demo.txt
+   17  cat demo.txt
+   18  git status
+   19  git add .
+   20  git status
+   21  git commit -m "commit 2 at master branch"
+   22  clear
+   23  git status
+   24  git log
+   25  cat demo.txt
+   26  git branch
+   27  git branch test
+   28  git branch
+   29  git checkout test
+   30  git branch
+   31  ls
+   32  cat demo.txt
+   33  git status
+   34  clear
+   35  ls
+   36  git branch
+   37  nano demo.txt
+   38  git status
+   39  git add .
+   40  git status
+   41  git log
+   42  git commit -m "commit 3 at test branch"
+   43  clear
+   44  git status
+   45  ls
+   46  nano demo.txt
+   47  git status
+   48  git add .
+   49  git status
+   50  git commit -m "Commit4 in Test Branch"
+   51  git status
+   52  git branch
+   53  cat demo.txt
+   54  cleaar
+   55  clear
+   56  cat demo.txt
+   57  git branch
+   58  git checkout master
+   59  git branch
+   60  cat demo.txt
+   61  nano demo.txt
+   62  git status
+   63  git add .
+   64  git status
+   65  git log
+   66  git commit -m "Commit3 in Master Branch"
+   67  cat demo.txt
+   68  clear
+   69  nano demo.txt
+   70  git status
+   71  git add .
+   72  git status
+   73  git commit -m "Commit4 in Master Branch"
+   74  clear
+   75  git log
+   76  clear
+   77  cat demo.txt
+   78  git branch
+   79  git checkout test
+   80  cat demo.txt
+   81  git branch
+   82  git merge master
+   83  cat demo.txt
+   84  clear
+   85  git status
+   86  git add .
+   87  git status
+   88  git commit -m "5th commit in test branch"
+   89  git status
+   90  clear
+   91  git log
+
+Example-2:
+
+  106  mkdir new-demo
+  107  cd new-demo
+  108  git init
+  109  git branch
+  110  cat>file1.txt
+  111  cat file1.txt
+  112  git status
+  113  git add .
+  114  git status
+  115  clear
+  116  git commit -m "master branch commit-1"
+  117  git status
+  118  git branch
+  119  git log
+  120  git branch test
+  121  git log
+  122  git branch
+  123  git checkout test
+  124  clear
+  125  ls
+  126  git status
+  127  cat file1.txt
+  128  nano file1.txt
+  129  git status
+  130  git add .
+  131  git commit -m "test branch commit-1"
+  132  git status
+  133  cat file1.txt
+  134  clear
+  135  cat file1.txt
+  136  git branch
+  137  git checkout master
+  138  cat file1.txt
+  139  git status
+  140  git merge test
+  141  cat file1.txt
